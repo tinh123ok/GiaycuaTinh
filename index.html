@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giày...</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img id="imglogo" src="magie/cart-icon.png" >
+        <h7 class="logo">0 ITEM(S)</h7>
+    </header>
+    <div>
+        <div>
+            <img id="imglogo1" src="magie/logo.png" width="150px">
+        </div>
+        <div class="row">
+            <ul>
+                <li><a href="" class="home">home</a></li>
+                <li><a href="">men</a></li>
+                <li><a href="">women</a></li>
+                <li><a href="">kids</a></li>
+            </ul>
+        </div>
+        <div >
+            <img class="slide4" src="magie/slide-4.jpg">
+            <div class="foot">
+                <div class="foot1">foot ball boots</div>
+                <div class="stay1">Stay true to your team all day, every day, game day.</div>
+                <div class="shopnow"><a href="" >Shop Now</a></div>
+            </div>
+        </div>
+    
+        <section>
+            <div class="column">
+                <img class="giay" src="magie/product2.jpg">
+                <div class="igiay">Nike HYPERVENOM Phantom FG</div>
+                <div class="igia">add to cart</div>
+                <div class="gia">$ 380</div>
+            </div>  
+                
+            <div class="column">
+                <img class="giay" src="magie/product1.jpg">
+                <div class="igiay">Nike HYPERVENOM Phantom FG</div>
+                <div class="igia">add to cart</div>
+                <div class="gia">$ 380</div>
+            </div>
+    
+            <div class="column">
+                <img class="giay" src="magie/product3.jpg">
+                <div class="igiay">Nike HYPERVENOM Phantom FG</div>
+                <div class="igia">add to cart</div>
+                <div class="gia">$ 380</div>
+            </div>
+    
+        </section>
+    </div>
+    <div id="backtop">
+        <img src="magie/move-top.png">
+    </div>
+    <footer>
+        <p> © 2015 | LaTinh - 20211TT2237</p>
+    </footer>
+    
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function() {
+        $(window).scroll(function() {
+            if ($(this).scrollTop()) {
+                $('#backtop').fadeIn();
+            } else {
+                $('#backtop').fadeOut();
+            }
+        });
+        $('#backtop').click(function(){
+            $('html, body'). animate({
+                scrollTop: 0
+            }, 500);
+        })
+    })
+</script>
+</html>

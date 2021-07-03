@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    
+}
+header{
+    background: black;
+    padding-bottom: 2px;
+    
+}
+#imglogo{
+    
+    padding-left: 100px;
+}
+.logo{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#imglogo1{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+  padding-top: 25px;
+}
+.row{
+    text-transform: uppercase;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left:75px ;
+    padding-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul li {
+    display: inline-table;
+    padding: 20px 35px;
+}
+.row ul li a{
+    text-decoration: none;
+    color: black;
+}
+.row ul li a:hover{
+    color: red;
+}
+.row ul .home{
+    padding: 15px 25px;
+    background: black;
+    color: white;
+}
+.slide4{
+    padding-left: 100px;
+    margin: 0 auto;
+    width: 500px;
+    height: 250 px;
+    
+}
+.foot{
+    float: right;
+    padding-right: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.foot1{
+    text-transform: uppercase;
+    font-size: 55px;
+}
+.stay1{
+    font-size: 14px;
+    text-align: right;
+    color: gray;
+}
+.shopnow{
+    text-align: right;
+    padding-top: 50px;
+    
+}
+.shopnow a{
+    color: black;
+    padding: 15px 20px;
+    text-decoration: none;
+    background: whitesmoke;
+    border-right: 1px outset #c0c0c0;
+    border-bottom: 2px outset #000000;
+    
+}
+.shopnow a:hover {
+    background: white;
+    border-right: none;
+    border-top: 2px outset #000000;
+    border-left: 1px outset #c0c0c0;
+    border-bottom: none;
+}
+section{
+    display: block;
+    width: 100%;
+    padding-top:50px ;
+    padding-left: 90px;
+    padding-right:20px ;
+    
+}
+section img{
+    padding: 0px 60px;
+    width: 230px;
+    height: 140px;
+}
+.column{
+    float: left;
+    padding-top: 30px;
+    
+    
+    border: 1px solid black;
+    margin: 20px;
+    
+}
+.giay:hover{
+    transform: scale(1.1);
+
+}
+.igiay{
+    
+    padding-left: 17px;
+    padding-bottom: 13px;
+
+}
+.igia{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 69%;
+    float: left;
+    background: #e0e0e0;
+    text-align: center;
+    text-transform: uppercase;
+    border-left: 4px solid red;
+}
+.gia{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 29%;
+    background: f5f5f5;
+    float: right;
+    
+}
+footer>p{
+    clear: both;
+    text-align: center;
+    background: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+#backtop{
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    cursor: pointer;
+}
+
+
+
+
